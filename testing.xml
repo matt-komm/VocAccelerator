@@ -1,0 +1,28 @@
+<vocentry type="verb" uuid="3352-2452-2352">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>avoir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>j'ai</s1>
+                <s2>tu as</s2>
+                <s3>il a</s3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>haben</value>
+        
+    </word>
+</vocentry>
+

@@ -8,19 +8,28 @@ include_directories(${QT_QTGUI_INCLUDE_DIR})
 INCLUDE_DIRECTORIES(${CMAKE_CURRENT_BINARY_DIR})
 INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR})
 
+add_subdirectory(tinyxml2)
+INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR}/tinyxml2)
+
 set(sourcefiles 
     main.cpp 
     Checker.cpp
+    VocEntry.cpp
+    Word.cpp
+    Database.cpp
 )
 set(headerfiles 
     Checker.hpp
 )
 set(uifiles 
-    textguess.ui
+    base.ui
 )
 
 QT4_WRAP_CPP(hppwrapfiles ${headerfiles})
 QT4_WRAP_UI(uiwarpfiles ${uifiles})
-add_executable(main ${sourcefiles} ${hppwrapfiles} ${uiwarpfiles})
+add_executable(main ${sourcefiles} ${hppwrapfiles} ${uiwarpfiles} )
 target_link_libraries(main ${QT_QTCORE_LIBRARY})
 target_link_libraries(main ${QT_QTGUI_LIBRARY})
+target_link_libraries(main tinyxml2)
+add_dependencies(main tinyxml2)
+
