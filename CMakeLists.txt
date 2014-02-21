@@ -17,12 +17,15 @@ set(sourcefiles
     VocEntry.cpp
     Word.cpp
     Database.cpp
+    VocView.cpp
 )
 set(headerfiles 
     Checker.hpp
+    VocView.hpp
 )
 set(uifiles 
     base.ui
+    default.ui
 )
 
 QT4_WRAP_CPP(hppwrapfiles ${headerfiles})
