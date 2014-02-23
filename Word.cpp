@@ -2,8 +2,11 @@
 
 #include <iostream>
 
-Word::Word(std::string lang, std::string value):
-    _lang(lang), _value(value), _hint("")
+Word::Word(VocEntry* vocEntry, std::string lang, std::string value):
+    _vocEntry(vocEntry),
+    _lang(lang), 
+    _value(value), 
+    _hint("")
 {
 }
 
@@ -11,7 +14,7 @@ Word::~Word()
 {
 }
 
-Word* Word::loadFromXML(tinyxml2::XMLElement* element)
+Word* Word::loadFromXML(VocEntry* vocEntry, tinyxml2::XMLElement* element)
 {
     std::string lang="";
     for (tinyxml2::XMLAttribute* attr = element->FirstAttribute(); attr!=0; attr = attr->Next())
@@ -43,10 +46,26 @@ Word* Word::loadFromXML(tinyxml2::XMLElement* element)
         {
             hint=std::string(child->Value());
         }
+        
     }
-    Word* word = new Word(lang,value);
+    Word* word = new Word(vocEntry,lang,value);
     word->setHint(hint);
     word->setAlternatives(alt);
+    
+    tinyxml2::XMLElement* child = element->FirstChildElement("conjugation");
+    if (child!=0)
+    {
+        for (tinyxml2::XMLElement* conjugationElements = child->FirstChildElement("temp"); conjugationElements!=0; conjugationElements=conjugationElements->NextSiblingElement("temp"))
+        {
+            Conjugation* conjugation = Conjugation::loadFromXML(word,conjugationElements);
+            if (conjugation!=0)
+            {    
+                Conjugation::initPersonsByLang(conjugation,lang);
+                word->addConjugation(conjugation);
+            }
+            
+        }
+    }
     return word;
 }
 

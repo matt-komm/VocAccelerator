@@ -1,26 +1,24 @@
 #include <QApplication>
 #include <QObject>
 #include <QPoint>
-#include "ui_base.h"
 
 #include <iostream>
 
 #include "Database.hpp"
+#include "GuessWindowController.hpp"
 
 int main(int argv, char **args)
 {   
-    Database db;
-    db.loadXML("../testing.xml");
+    
     
     QApplication app(argv, args);
 
-    Ui_MainWindow mainUI;
-    QMainWindow *mainWindow = new QMainWindow();
-    mainUI.setupUi(mainWindow);
+    QMainWindow mainWindow;
+    GuessWindowController guessWindowController(mainWindow);
     
     //Checker* checker = new Checker(mainUI);
-    //QObject::connect(mainUI.checkButton, SIGNAL(clicked(bool)),checker,SLOT(checkAnswer(bool)));
-    mainWindow->show();
+    //QObject::);
+    mainWindow.show();
     return app.exec();
     
 

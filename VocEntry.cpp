@@ -38,20 +38,22 @@ VocEntry* VocEntry::loadFromXML(tinyxml2::XMLElement* element)
 
     std::string type="";
     std::string uuid="";
-    for (tinyxml2::XMLAttribute* attr = element->FirstAttribute(); attr!=0; attr = attr->Next())
+    for (const tinyxml2::XMLAttribute* attr = element->FirstAttribute(); attr!=0; attr = attr->Next())
     {
         if (strcmp(attr->Name(),"type")==0)
         {
             type=std::string(attr->Value());
         }
+        /*
         else if (strcmp(attr->Name(),"uuid")==0)
         {
             uuid=std::string(attr->Value());
         }
+        */
     }
     //std::cout<<"vocentry: "<<type<<", "<<uuid<<std::endl;
     
-    if (type=="" || uuid=="")
+    if (type=="") //|| uuid=="")
     {
         return 0;
     }
@@ -62,7 +64,7 @@ VocEntry* VocEntry::loadFromXML(tinyxml2::XMLElement* element)
     }
     for (tinyxml2::XMLElement* child = element->FirstChildElement("word"); child!=0; child=child->NextSiblingElement("word"))
     {
-        Word* word = Word::loadFromXML(child);
+        Word* word = Word::loadFromXML(vocEntry,child);
         if (word!=0)
         {
             //std::cout<<"  add word: "<<word->getLang()<<", "<<word->getValue()<<std::endl;

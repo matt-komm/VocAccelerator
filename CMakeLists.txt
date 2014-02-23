@@ -13,19 +13,21 @@ INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR}/tinyxml2)
 
 set(sourcefiles 
     main.cpp 
-    Checker.cpp
+    GuessWindowController.cpp
     VocEntry.cpp
     Word.cpp
     Database.cpp
     VocView.cpp
+    Conjugation.cpp
 )
 set(headerfiles 
-    Checker.hpp
+    GuessWindowController.hpp
     VocView.hpp
 )
 set(uifiles 
-    base.ui
+    conjugation.ui
     default.ui
+    GuessWindow.ui
 )
 
 QT4_WRAP_CPP(hppwrapfiles ${headerfiles})

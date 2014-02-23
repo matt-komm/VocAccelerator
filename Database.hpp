@@ -16,6 +16,16 @@ class Database
         
         void loadXML(std::string path);
         
+        inline VocEntry* get(unsigned int index)
+        {
+            return _entries[index];
+        }
+        
+        inline unsigned int size()
+        {
+            return _entries.size();
+        }
+        
         ~Database();
 };
 

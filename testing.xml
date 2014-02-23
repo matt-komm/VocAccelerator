@@ -1,4 +1,4 @@
-<vocentry type="verb" uuid="3352-2452-2352">
+<vocentry type="verb">
     <categories>
     hard|easy
     </categories>
@@ -22,7 +22,36 @@
     </word>
     <word lang="german">
         <value>haben</value>
-        
     </word>
 </vocentry>
 
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>choisir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je choisis</s1>
+                <s2>tu choisis</s2>
+                <s3>il choisit</s3>
+                <p1>nous choisissons</p1>
+                <p2>vous choisissez</p2>
+                <p3>ils choisissent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>auswählen</value>
+        
+    </word>
+</vocentry>

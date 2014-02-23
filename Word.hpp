@@ -2,6 +2,9 @@
 #define __WORD_H__
 
 #include "tinyxml2.h"
+#include "Conjugation.hpp"
+
+class VocEntry;
 
 #include <string>
 #include <vector>
@@ -11,14 +14,16 @@
 class Word
 {
     protected:
+        VocEntry* _vocEntry;
         std::string _lang;
         std::string _value;
-        std::vector<std::string> _alternatives; 
+        std::vector<std::string> _alternatives;
+        std::map<std::string,Conjugation*> _conjugations;
         std::string _hint;  
     public:
-        Word(std::string lang, std::string value);
+        Word(VocEntry* vocEntry, std::string lang, std::string value);
         
-        static Word* loadFromXML(tinyxml2::XMLElement* element);
+        static Word* loadFromXML(VocEntry* vocEntry, tinyxml2::XMLElement* element);
         
         inline void setLang(std::string lang)
         {
@@ -48,6 +53,16 @@ class Word
         inline std::string getHint() const
         {
             return _hint;
+        }
+        
+        inline void addConjugation(Conjugation* conjugation)
+        {
+            _conjugations[conjugation->getTemp()]=conjugation;
+        }
+        
+        inline Conjugation* getConjugation(std::string temp)
+        {
+            return _conjugations[temp];
         }
         
         void setAlternatives(std::vector<std::string> alt)
