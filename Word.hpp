@@ -23,7 +23,7 @@ class Word
     public:
         Word(VocEntry* vocEntry, std::string lang, std::string value);
         
-        static Word* loadFromXML(VocEntry* vocEntry, tinyxml2::XMLElement* element);
+        static Word* loadFromXML(VocEntry* vocEntry, const tinyxml2::XMLElement* element);
         
         inline void setLang(std::string lang)
         {

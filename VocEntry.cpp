@@ -33,7 +33,7 @@ Word* VocEntry::getWord(std::string lang)
     }
 }
 
-VocEntry* VocEntry::loadFromXML(tinyxml2::XMLElement* element)
+VocEntry* VocEntry::loadFromXML(const tinyxml2::XMLElement* element)
 {
 
     std::string type="";
@@ -62,7 +62,7 @@ VocEntry* VocEntry::loadFromXML(tinyxml2::XMLElement* element)
     {   
         //TODO
     }
-    for (tinyxml2::XMLElement* child = element->FirstChildElement("word"); child!=0; child=child->NextSiblingElement("word"))
+    for (const tinyxml2::XMLElement* child = element->FirstChildElement("word"); child!=0; child=child->NextSiblingElement("word"))
     {
         Word* word = Word::loadFromXML(vocEntry,child);
         if (word!=0)

@@ -20,7 +20,7 @@ class VocEntry
     public:
         VocEntry(std::string type, std::string uuid);
         
-        static VocEntry* loadFromXML(tinyxml2::XMLElement* element);
+        static VocEntry* loadFromXML(const tinyxml2::XMLElement* element);
         
         void addWord(Word* word);
         Word* getWord(std::string lang);

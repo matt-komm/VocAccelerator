@@ -25,6 +25,7 @@ class GuessWindowController:
     public slots:
         void nextEntry();
         void countWrong();
+        void skip();
 
 };
 

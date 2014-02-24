@@ -14,10 +14,10 @@ Word::~Word()
 {
 }
 
-Word* Word::loadFromXML(VocEntry* vocEntry, tinyxml2::XMLElement* element)
+Word* Word::loadFromXML(VocEntry* vocEntry, const tinyxml2::XMLElement* element)
 {
     std::string lang="";
-    for (tinyxml2::XMLAttribute* attr = element->FirstAttribute(); attr!=0; attr = attr->Next())
+    for (const tinyxml2::XMLAttribute* attr = element->FirstAttribute(); attr!=0; attr = attr->Next())
     {
         if (strcmp(attr->Name(),"lang")==0)
         {
@@ -32,12 +32,12 @@ Word* Word::loadFromXML(VocEntry* vocEntry, tinyxml2::XMLElement* element)
     std::string hint="";
     std::vector<std::string> alt;
     
-    for (tinyxml2::XMLElement* child = element->FirstChildElement(); child!=0; child=child->NextSiblingElement())
+    for (const tinyxml2::XMLElement* child = element->FirstChildElement(); child!=0; child=child->NextSiblingElement())
     {
         if (strcmp(child->Name(),"value")==0)
         {
             value = child->GetText();
-            for (tinyxml2::XMLElement* altElement = child->FirstChildElement("alt"); altElement!=0; altElement=altElement->NextSiblingElement("alt"))
+            for (const tinyxml2::XMLElement* altElement = child->FirstChildElement("alt"); altElement!=0; altElement=altElement->NextSiblingElement("alt"))
             {
                 alt.push_back(altElement->GetText());
             }
@@ -52,10 +52,10 @@ Word* Word::loadFromXML(VocEntry* vocEntry, tinyxml2::XMLElement* element)
     word->setHint(hint);
     word->setAlternatives(alt);
     
-    tinyxml2::XMLElement* child = element->FirstChildElement("conjugation");
+    const tinyxml2::XMLElement* child = element->FirstChildElement("conjugation");
     if (child!=0)
     {
-        for (tinyxml2::XMLElement* conjugationElements = child->FirstChildElement("temp"); conjugationElements!=0; conjugationElements=conjugationElements->NextSiblingElement("temp"))
+        for (const tinyxml2::XMLElement* conjugationElements = child->FirstChildElement("temp"); conjugationElements!=0; conjugationElements=conjugationElements->NextSiblingElement("temp"))
         {
             Conjugation* conjugation = Conjugation::loadFromXML(word,conjugationElements);
             if (conjugation!=0)

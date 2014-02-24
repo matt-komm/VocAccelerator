@@ -53,5 +53,9 @@ void VocView::checkAnswer(bool clicked)
     }
 }
 
+void VocView::showHint(bool)
+{
+    _conjugationUI.lineeditHint->setText(QString::fromStdString(_currentVocEntry->getWord(_answerLang)->getValue()));
+}
 
 

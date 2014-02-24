@@ -1,5 +1,7 @@
 #include "Database.hpp"
 
+#include <iostream>
+
 Database::Database()
 {
 }
@@ -13,6 +15,7 @@ void Database::loadXML(std::string path)
         VocEntry* vocEntry = VocEntry::loadFromXML(entry);
         if (vocEntry!=0)
         {
+            //std::cout<<"load: "<<vocEntry->getWord("german")->getValue()<<std::endl;
             _entries.push_back(vocEntry);
         }
     }

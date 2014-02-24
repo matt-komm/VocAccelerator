@@ -36,7 +36,7 @@ class VocView:
         
     public slots:
         void checkAnswer(bool clicked);
-        
+        void showHint(bool clicked);
 };
 
 #endif

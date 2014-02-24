@@ -18,10 +18,10 @@ Conjugation::~Conjugation()
 {
 }
  
-Conjugation* Conjugation::loadFromXML(Word* word, tinyxml2::XMLElement* element)
+Conjugation* Conjugation::loadFromXML(Word* word, const tinyxml2::XMLElement* element)
 {
     std::string temp = "";
-    for (tinyxml2::XMLAttribute* attr = element->FirstAttribute(); attr!=0; attr = attr->Next())
+    for (const tinyxml2::XMLAttribute* attr = element->FirstAttribute(); attr!=0; attr = attr->Next())
     {
         if (strcmp(attr->Name(),"name")==0)
         {
@@ -33,7 +33,7 @@ Conjugation* Conjugation::loadFromXML(Word* word, tinyxml2::XMLElement* element)
         return 0;
     }
     Conjugation* conjugation = new Conjugation(word, temp);
-    for (tinyxml2::XMLElement* child = element->FirstChildElement(); child!=0; child=child->NextSiblingElement())
+    for (const tinyxml2::XMLElement* child = element->FirstChildElement(); child!=0; child=child->NextSiblingElement())
     {
         conjugation->addConjugationForm(child->Name(),child->GetText());
     }

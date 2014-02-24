@@ -1,29 +1,3 @@
-<vocentry type="verb">
-    <categories>
-    hard|easy
-    </categories>
-    <history user="komm">
-        <tested>10</tested>
-        <correct>4</correct>
-    </history>
-    <word lang="french">
-        <picture></picture>
-        <sound></sound>
-        <hint></hint>
-        <value>avoir</value>
-        <alt></alt>
-        <conjugation>
-            <temp name="indicative">
-                <s1>j'ai</s1>
-                <s2>tu as</s2>
-                <s3>il a</s3>
-            </temp>
-        </conjugation>
-    </word>
-    <word lang="german">
-        <value>haben</value>
-    </word>
-</vocentry>
 
 <vocentry type="verb">
     <categories>
@@ -52,6 +26,1432 @@
     </word>
     <word lang="german">
         <value>auswählen</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>partir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je pars</s1>
+                <s2>tu pars</s2>
+                <s3>il part</s3>
+                <p1>nous partons</p1>
+                <p2>vous partez</p2>
+                <p3>ils partent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>abreisen</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>sortir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je sors</s1>
+                <s2>tu sors</s2>
+                <s3>il sort</s3>
+                <p1>nous sortons</p1>
+                <p2>vous sortez</p2>
+                <p3>ils sortent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>hinausgehen</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>sentir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je sens</s1>
+                <s2>tu sens</s2>
+                <s3>il sent</s3>
+                <p1>nous sentons</p1>
+                <p2>vous sentez</p2>
+                <p3>ils sentent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>fühlen<alt>riechen</alt></value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>rougir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je rougis</s1>
+                <s2>tu rougis</s2>
+                <s3>il rougit</s3>
+                <p1>nous rougissons</p1>
+                <p2>vous rougissez</p2>
+                <p3>ils rougissent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>rot werden</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>applaudir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je applaudis</s1>
+                <s2>tu applaudis</s2>
+                <s3>il applaudit</s3>
+                <p1>nous applaudissons</p1>
+                <p2>vous applaudissez</p2>
+                <p3>ils applaudissent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>applaudieren<alt>klatschen (Beifall)</alt></value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>comprendres</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je comprends</s1>
+                <s2>tu comprends</s2>
+                <s3>il comprend</s3>
+                <p1>nous comprenons</p1>
+                <p2>vous comprenez</p2>
+                <p3>ils comprennent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>verstehen</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>grossir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je grossis</s1>
+                <s2>tu grossis</s2>
+                <s3>il grossit</s3>
+                <p1>nous grossissons</p1>
+                <p2>vous grossissez</p2>
+                <p3>ils grossissent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>dick machen<alt>dick werden</alt></value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>maigrir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je maigris</s1>
+                <s2>tu maigris</s2>
+                <s3>il maigrit</s3>
+                <p1>nous maigrissons</p1>
+                <p2>vous maigrissez</p2>
+                <p3>ils maigrissent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>abmagern</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>remplir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je remplis</s1>
+                <s2>tu remplis</s2>
+                <s3>il remplit</s3>
+                <p1>nous remplissons</p1>
+                <p2>vous remplissez</p2>
+                <p3>ils remplissent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>auflüllen</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>ralentir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je ralentis</s1>
+                <s2>tu ralentis</s2>
+                <s3>il ralentit</s3>
+                <p1>nous ralentissons</p1>
+                <p2>vous ralentissez</p2>
+                <p3>ils ralentissent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>langsam werden</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>grandir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je grandis</s1>
+                <s2>tu grandis</s2>
+                <s3>il grandit</s3>
+                <p1>nous grandissons</p1>
+                <p2>vous grandissez</p2>
+                <p3>ils grandissent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>größer werden<alt>wachsen</alt></value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>agir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>j'agis</s1>
+                <s2>tu agis</s2>
+                <s3>il agit</s3>
+                <p1>nous agissons</p1>
+                <p2>vous agissez</p2>
+                <p3>ils agissent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>handeln<alt>reagieren</alt></value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>mentir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je mens</s1>
+                <s2>tu mens</s2>
+                <s3>il ment</s3>
+                <p1>nous mentons</p1>
+                <p2>vous mentez</p2>
+                <p3>ils mentent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>lügen</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>suivre</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je suis</s1>
+                <s2>tu suis</s2>
+                <s3>il suit</s3>
+                <p1>nous suivons</p1>
+                <p2>vous suivez</p2>
+                <p3>ils suivent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>folgen<alt>aufeinanderfolgen</alt></value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>dormir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je dors</s1>
+                <s2>tu dors</s2>
+                <s3>il dort</s3>
+                <p1>nous dormons</p1>
+                <p2>vous dormez</p2>
+                <p3>ils dorment</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>schlafen</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>finir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je finis</s1>
+                <s2>tu finis</s2>
+                <s3>il finit</s3>
+                <p1>nous finissons</p1>
+                <p2>vous finissez</p2>
+                <p3>ils finissent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>enden<alt>beenden</alt></value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>découvrir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je découvre</s1>
+                <s2>tu découvres</s2>
+                <s3>il découvre</s3>
+                <p1>nous découvrons</p1>
+                <p2>vous découvrez</p2>
+                <p3>ils découvrent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>herausfinden</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>envoyer</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je envoie</s1>
+                <s2>tu envoies</s2>
+                <s3>il envoie</s3>
+                <p1>nous envoyons</p1>
+                <p2>vous envoyez</p2>
+                <p3>ils envoient</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>senden</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>ouvrir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je ouvre</s1>
+                <s2>tu ouvres</s2>
+                <s3>il ouvre</s3>
+                <p1>nous ouvrons</p1>
+                <p2>vous ouvrez</p2>
+                <p3>ils ouvrent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>öffnen</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>promettre</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je promets</s1>
+                <s2>tu promets</s2>
+                <s3>il promet</s3>
+                <p1>nous promettons</p1>
+                <p2>vous promettez</p2>
+                <p3>ils promettent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>versprechen</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>tenir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je tiens</s1>
+                <s2>tu tiens</s2>
+                <s3>il tient</s3>
+                <p1>nous tenons</p1>
+                <p2>vous tenez</p2>
+                <p3>ils tiennent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>halten</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>aller</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je vais</s1>
+                <s2>tu vas</s2>
+                <s3>il va</s3>
+                <p1>nous allons</p1>
+                <p2>vous allez</p2>
+                <p3>ils vont</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>gehen</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>avoir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>j'ai</s1>
+                <s2>tu as</s2>
+                <s3>il a</s3>
+                <p1>nous avons</p1>
+                <p2>vous avez</p2>
+                <p3>ils ont</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>haben</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>boire</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je bois</s1>
+                <s2>tu bois</s2>
+                <s3>il boit</s3>
+                <p1>nous buvons</p1>
+                <p2>vous buvez</p2>
+                <p3>ils boivent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>trinken</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>conduire</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je conduis</s1>
+                <s2>tu conduis</s2>
+                <s3>il conduit</s3>
+                <p1>nous conduisons</p1>
+                <p2>vous conduisez</p2>
+                <p3>ils conduisent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>fahren</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>connaître</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je connais</s1>
+                <s2>tu connais</s2>
+                <s3>il connaît</s3>
+                <p1>nous connaissons</p1>
+                <p2>vous connaissez</p2>
+                <p3>ils connaissent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>kennen</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>courir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je cours</s1>
+                <s2>tu cours</s2>
+                <s3>il court</s3>
+                <p1>nous courons</p1>
+                <p2>vous courez</p2>
+                <p3>ils courent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>laufen</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>croire</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je crois</s1>
+                <s2>tu crois</s2>
+                <s3>il croit</s3>
+                <p1>nous croyons</p1>
+                <p2>vous croyez</p2>
+                <p3>ils croient</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>glauben</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>devoir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je dois</s1>
+                <s2>tu dois</s2>
+                <s3>il doit</s3>
+                <p1>nous devons</p1>
+                <p2>vous devez</p2>
+                <p3>ils doivent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>müssen</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>dire</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je dis</s1>
+                <s2>tu dis</s2>
+                <s3>il dit</s3>
+                <p1>nous disons</p1>
+                <p2>vous dites</p2>
+                <p3>ils disent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>sagen</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>écrire</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>j'écris</s1>
+                <s2>tu écris</s2>
+                <s3>il écrit</s3>
+                <p1>nous écrivons</p1>
+                <p2>vous écrivez</p2>
+                <p3>ils écrivent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>schreiben</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>être</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je suis</s1>
+                <s2>tu es</s2>
+                <s3>il est</s3>
+                <p1>nous sommes</p1>
+                <p2>vous êtez</p2>
+                <p3>ils sont</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>sein</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>faire</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je fais</s1>
+                <s2>tu fais</s2>
+                <s3>il fait</s3>
+                <p1>nous faisons</p1>
+                <p2>vous faites</p2>
+                <p3>ils font</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>machen</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>lire</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je lis</s1>
+                <s2>tu lis</s2>
+                <s3>il lit</s3>
+                <p1>nous lisons</p1>
+                <p2>vous lisez</p2>
+                <p3>ils lisent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>lesen</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>mettre</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je mets</s1>
+                <s2>tu mets</s2>
+                <s3>il met</s3>
+                <p1>nous mettons</p1>
+                <p2>vous mettez</p2>
+                <p3>ils mettent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>stellen</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>offrir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>j'offre</s1>
+                <s2>tu offres</s2>
+                <s3>il offre</s3>
+                <p1>nous offrons</p1>
+                <p2>vous offrez</p2>
+                <p3>ils offrent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>anbieten</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>plaire</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je plais</s1>
+                <s2>tu plais</s2>
+                <s3>il plaît</s3>
+                <p1>nous plaisons</p1>
+                <p2>vous plaisez</p2>
+                <p3>ils plaisent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>gefallen</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>pouvoir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je peux</s1>
+                <s2>tu peux</s2>
+                <s3>il peut</s3>
+                <p1>nous pouvons</p1>
+                <p2>vous pouvez</p2>
+                <p3>ils peuvent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>können</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>prendre</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je prends</s1>
+                <s2>tu prends</s2>
+                <s3>il prend</s3>
+                <p1>nous prenons</p1>
+                <p2>vous prenez</p2>
+                <p3>ils prennent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>nehmen</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>recevoir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je recois</s1>
+                <s2>tu recois</s2>
+                <s3>il recoit</s3>
+                <p1>nous recevons</p1>
+                <p2>vous recevez</p2>
+                <p3>ils recoivent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>empfangen</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>rire</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je ris</s1>
+                <s2>tu ris</s2>
+                <s3>il rit</s3>
+                <p1>nous rions</p1>
+                <p2>vous riez</p2>
+                <p3>ils rient</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>lachen</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>savoir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je sais</s1>
+                <s2>tu sais</s2>
+                <s3>il sait</s3>
+                <p1>nous savons</p1>
+                <p2>vous savez</p2>
+                <p3>ils savent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>wissen</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>venir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je viens</s1>
+                <s2>tu viens</s2>
+                <s3>il vient</s3>
+                <p1>nous venons</p1>
+                <p2>vous venez</p2>
+                <p3>ils viennent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>kommen</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>vivre</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je vis</s1>
+                <s2>tu vis</s2>
+                <s3>il vit</s3>
+                <p1>nous vivons</p1>
+                <p2>vous vivez</p2>
+                <p3>ils vivent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>leben</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>voir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je vois</s1>
+                <s2>tu vois</s2>
+                <s3>il voit</s3>
+                <p1>nous voyons</p1>
+                <p2>vous voyez</p2>
+                <p3>ils voient</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>sehen</value>
+        
+    </word>
+</vocentry>
+
+<vocentry type="verb">
+    <categories>
+    hard|easy
+    </categories>
+    <history user="komm">
+        <tested>10</tested>
+        <correct>4</correct>
+    </history>
+    <word lang="french">
+        <picture></picture>
+        <sound></sound>
+        <hint></hint>
+        <value>vouloir</value>
+        <alt></alt>
+        <conjugation>
+            <temp name="indicative">
+                <s1>je veux</s1>
+                <s2>tu veux</s2>
+                <s3>il veut</s3>
+                <p1>nous voulons</p1>
+                <p2>vous voulez</p2>
+                <p3>ils veulent</p3>
+            </temp>
+        </conjugation>
+    </word>
+    <word lang="german">
+        <value>wollen</value>
         
     </word>
 </vocentry>

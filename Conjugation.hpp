@@ -27,7 +27,7 @@ class Conjugation
         
     public:
         Conjugation(Word* baseWord, std::string temp);
-        static Conjugation* loadFromXML(Word* word, tinyxml2::XMLElement* element);
+        static Conjugation* loadFromXML(Word* word, const tinyxml2::XMLElement* element);
         static void initPersonsByLang(Conjugation* conjugation, std::string lang);
         void addConjugationForm(std::string person, std::string form);
         void addPerson(std::string person, std::string form);
